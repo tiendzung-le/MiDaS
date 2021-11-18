@@ -15,6 +15,8 @@ Paper: `Characterizing signal propagation to close the performance gap in unnorm
 Official Deepmind JAX code: https://github.com/deepmind/deepmind-research/tree/master/nfnets
 
 Hacked together by / copyright Ross Wightman, 2021.
+#!cp std_conv.py /usr/local/lib/python3.7/dist-packages/timm/models/layers/std_conv.py
+
 """
 import torch
 import torch.nn as nn
